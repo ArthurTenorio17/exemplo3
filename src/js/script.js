@@ -169,6 +169,35 @@ let media=60;
 let nota = media >=60 ? "passou de ano": "Não passou de ano"
 console.log(nota)
 
+//ESTRUTURA DE REPETIÇÃO
+
+for(let i=0;i<10;i++){
+    console.log("o valor de I é", i)
+
+}
+
+//while
+
+let g=0;
+
+while(g <10){
+    console.log("o valor de f é",g)
+    g++;
+}
+
+//do while
+
+let w=0;
+
+do{
+    console.log("do while",w)
+    w++;
+}while(w <= 20)
+
+    //JOGO DE ADIVINHAÇÃO//
+
+    let palpite;
+
 
 
 
