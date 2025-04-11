@@ -102,8 +102,72 @@ const f=30
 
 // CONDICIONAL
 
+//if
 
+if(true){
+    console.log("é verdadeiro")
+}
 
+let exemplo2 = 1
+if(exemplo2 ==1){
+    console.log("esta correto")
+}
+//if/else
+
+let nome2 ="fiap";
+
+if(nome =="fiap"){
+    console.log("Nome Correto")
+    //document.write("Nome Certo")
+}
+else{
+    console.log("Nome Errado")
+    //document.write("Nome Errado")
+}
+
+//if encadiado ou aninhado
+
+let idade2 =13;
+if(idade2 <=14){
+    console.log("Não pode Entrar é menor")
+}
+else if(idade2 >14 && idade2 <=18){
+    console.log("Pode entrar e curtir")
+}
+else if(idade2 >18 && idade2 <=50){
+    console.log("perigo seus pais estão na balada")
+}
+else{
+    console.log("você deve ficar no sofa assistndo netflix")
+}
+
+//switch case
+
+let time ="Santos";
+
+switch(time){
+case "Santos":
+    console.log("melhor time")
+    break;
+case "São Paulo":
+    console.log("É tão rui que não ganha em casa")
+    break;
+case "Palmeiras":
+    console.log("Simplesmente horrivel")
+    break;
+default:
+    console.log("Nenhuma das opções validas(Corinthians)") 
+}
+
+//Ternario
+
+let valor=100;
+let resultado = valor ==100 ? "Valor certo": "Valor Errado";
+console.log(resultado);
+
+let media=60;
+let nota = media >=60 ? "passou de ano": "Não passou de ano"
+console.log(nota)
 
 
 
